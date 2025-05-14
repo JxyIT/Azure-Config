@@ -25,21 +25,21 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create Resource Group
-- Create Virtual Network and SubNet
+- Create Virtual Network and Subnet
 - Create Domain Controller and Client VMs
-- Configure all VM's using Powershell
+- Configure all VMs using PowerShell
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p> Domain Controller's Setup and Configuration
 
-Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+1. Create the Domain Controller VM (Windows Server 2022) named “DC-1”
 ![image](https://github.com/user-attachments/assets/2fa9cc97-e4b0-43db-85b8-1dbc9c735a03)
 
-After VM is created, set the Domain Controller’s NIC Private IP address to be static
+2. After the VM is created, set the Domain Controller’s NIC Private IP address to be static
 ![image](https://github.com/user-attachments/assets/9942a32c-6d2a-4e0e-94bf-8a4a50fcd9b0)
 
-Log in to the VM and disable the Windows Firewall (for testing connectivity)
+3. Log in to the VM and disable the Windows Firewall (for testing connectivity)
 
 </p>
 <br />
