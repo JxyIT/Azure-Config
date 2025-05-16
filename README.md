@@ -41,11 +41,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 3. Log in to the VM and disable the Windows Firewall (for testing connectivity)
 
+![image](https://github.com/user-attachments/assets/637011d9-21a5-4b91-8cda-046180699dad)
+
 </p>
 <br />
 
 <p> Client's Setup and Configuration
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 1. Create the Client VM (Windows 10) named “Client-1”
@@ -56,32 +58,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
    
    ![image](https://github.com/user-attachments/assets/3b8e82d0-ee07-4f45-bb54-78781eba3453)
 
-4. After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
+3. After VM is created, set Client-1’s DNS settings to DC-1’s Private IP address
    
 ![image](https://github.com/user-attachments/assets/830b8eb8-2d0a-4842-af99-847ee2ebf347)
 
-6. From the Azure Portal, restart Client-1
+4. From the Azure Portal, restart Client-1
 
-7. Log in to Client-1
+5. Log in to Client-1
    
-8. Attempt to ping DC-1’s private IP address
+![image](https://github.com/user-attachments/assets/cc6c311e-0d07-4304-99cf-24ad6f974eb7)
+  
+6. Attempt to ping DC-1’s private IP address
    
 ![image](https://github.com/user-attachments/assets/5222b331-0086-4fb0-a428-9c998fc45f5e)
 
-10. Ensure the ping succeeded
+ Ensure the ping succeeded
 
-
-11. From Client-1, open PowerShell and run ipconfig /all
+7. From Client-1, open PowerShell and run ipconfig /all
 ![image](https://github.com/user-attachments/assets/1a694c62-4d61-4b96-a8aa-bcfc22124722)
 
-12. The output for the DNS settings should show DC-1’s private IP Address
+8. The output for the DNS settings should show DC-1’s private IP Address
 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-</p> 
-</p>
-<br />
